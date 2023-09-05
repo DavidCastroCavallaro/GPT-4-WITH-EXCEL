@@ -32,6 +32,9 @@ Como o GPT deve entender e organizar os dados em uma nova planilha? Classificar 
 O código classificará os dados da planilha Sheet1 em ordem ascendente pela primeira coluna e criará uma nova planilha chamada "Sorted_Data".
             
 # Observações
+
 O código requer uma chave API GPT-4. Você pode obter uma chave API gratuita da OpenAI.
+
 O código funciona com planilhas do Excel salvas no formato .xlsx.
+
 O código pode ser modificado para classificar dados de outros tipos de arquivos ou para organizar os dados de diferentes maneiras.
