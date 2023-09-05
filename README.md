@@ -23,9 +23,9 @@ O seguinte é um exemplo de como usar o código:
 
             # python code.py
 
-Digite o nome da planilha do Excel:  "my_excel_file.xlsx"
+Digite o nome da planilha do Excel:  exemplo: "my_excel_file.xlsx"
            
-Digite o nome da planilha a ser processada: "Sheet1"
+Digite o nome da planilha a ser processada:  exemplo: "Sheet1"
   
 Como o GPT deve entender e organizar os dados em uma nova planilha? Classificar pela primeira coluna.
 
