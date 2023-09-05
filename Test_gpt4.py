@@ -33,7 +33,7 @@ def sort_data(data):
     A sorted list of the data.
   """
 
-  api_key = input("Enter your GPT-4 API key: ")
+  api_key = "YOUR_API_KEY_HERE"
   sorted_data = gpt4.generate(
       prompt="Write code to sort the data in ascending order.",
       temperature=0.7,
