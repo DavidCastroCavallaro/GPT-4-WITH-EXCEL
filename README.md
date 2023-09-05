@@ -6,12 +6,12 @@ Este código usa o GPT-4 para classificar dados de uma planilha do Excel e organ
 
 Instale os pacotes Python necessários:
 
-            # pip install gpt4 openpyxl
+            pip install gpt4 openpyxl
            
 Salve o código como um arquivo .py.
 Execute o código:
 
-            # python code.py
+            python code.py
             
 O código solicitará o nome da planilha do Excel e o nome da planilha a ser processada.
 O código então classificará os dados da planilha e os organizará em uma nova planilha de acordo com suas instruções.
@@ -21,7 +21,7 @@ O código então classificará os dados da planilha e os organizará em uma nova
 
 O seguinte é um exemplo de como usar o código:
 
-            # python code.py
+            python code.py
 
 Digite o nome da planilha do Excel:  exemplo: "my_excel_file.xlsx"
            
