@@ -33,10 +33,12 @@ def sort_data(data):
     A sorted list of the data.
   """
 
+  api_key = input("Enter your GPT-4 API key: ")
   sorted_data = gpt4.generate(
       prompt="Write code to sort the data in ascending order.",
       temperature=0.7,
-      max_tokens=100
+      max_tokens=100,
+      api_key=api_key
   )
 
   return sorted_data
@@ -62,7 +64,8 @@ def main():
     ws.auto_filter.filter_column(gpt4.generate(
       prompt="Write code to filter the data based on the organization method.",
       temperature=0.7,
-      max_tokens=100
+      max_tokens=100,
+      api_key=api_key
     ))
 
     wb.save(excel_file)
